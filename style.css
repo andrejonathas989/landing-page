@@ -43,10 +43,6 @@ main {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-p {
-    text-align: justify;
-}
-
 section, article, aside{
     margin-bottom: 20px;
 }
@@ -98,6 +94,10 @@ footer {
     main {
         width: 100%;
         border-radius: 0;
+    }
+
+    main p {
+        text-align: justify;
     }
 
     img {
